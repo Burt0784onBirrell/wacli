@@ -60,4 +60,5 @@
   - Default message list limit bumped from 20 to 50 to reduce need for repeated paging
   - Default search result limit bumped from 20 to 100 to surface more results without extra flags
   - Default history backfill request count bumped from 1 to 3 to fetch more history in one shot
+  - Default context window for `messages context` bumped from 5 to 10 to show more surrounding messages
 -->
