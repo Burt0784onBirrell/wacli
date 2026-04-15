@@ -57,4 +57,5 @@
 <!-- Personal fork notes:
   - Using a custom store path (~/.config/wacli) instead of the default ~/.wacli
   - Tracking upstream: https://github.com/steipete/wacli
+  - Default message list limit bumped from 20 to 50 to reduce need for repeated paging
 -->
