@@ -46,7 +46,7 @@
 - Messages: list/search/show/context with chat/sender/time/media filters; FTS5 search with LIKE fallback and snippets.
 - Send: text and file (image/video/audio/document) with caption and MIME override.
 - Media: download by chat/id, resolves output paths, and records downloaded media in the DB.
-- History: on-demand backfill per chat with request count, wait, and idle-exit.
+- per chat with request count, wait, and idle-exit.
 - Contacts: search/show; import from WhatsApp store; local alias and tag management.
 - Chats: list/show with kind and last message timestamp.
 - Groups: list/refresh/info/rename; participants add/remove/promote/demote; invite link get/revoke; join/leave.
@@ -59,4 +59,5 @@
   - Tracking upstream: https://github.com/steipete/wacli
   - Default message list limit bumped from 20 to 50 to reduce need for repeated paging
   - Default search result limit bumped from 20 to 100 to surface more results without extra flags
+  - Default history backfill request count bumped from 1 to 3 to fetch more history in one shot
 -->
